@@ -1,0 +1,6 @@
+Sub ChangeHeight(int_rowHeight As Integer)
+    Dim ws As Worksheet
+    Set ws = ThisWorkbook.Sheets("Sheet1")
+    
+    ws.Rows.RowHeight = int_rowHeight
+End Sub
